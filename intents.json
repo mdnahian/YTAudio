@@ -1,0 +1,20 @@
+{
+
+    "intents": [{
+
+        "intent": "SearchIntent",
+        "slots": [{
+            "name": "term",
+            "type": "string"
+
+        }]}, {
+
+        "intent": "SelectionIntent",
+        "slots": [{
+            "name": "selection",
+            "type": "string"
+        }]
+
+        }]
+
+}

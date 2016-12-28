@@ -1,0 +1,5 @@
+welcome: What would you like to search?
+choose: Say play 1 for {{ audio1 }}, play 2 for {{ audio2 }}, or play 3 for {{ audio3 }}.
+notfound: No results found for {{ term }}.
+again: Sorry, please try again.
+selected: Do you want to listen to {{ term }}?
