@@ -1,0 +1,16 @@
+PlayIntent yes
+PlayIntent sure
+
+AMAZON.StopIntent cancel
+AMAZON.StopIntent stop
+
+AMAZON.HelpIntent help
+
+SearchIntent to {search for|term}
+
+SearchIntent search for {eminem|term}
+SearchIntent search for {miley cyrus|term}
+SearchIntent search for {hello by adele|term}
+
+SelectionIntent select {one|selection}
+SelectionIntent play {one|selection}

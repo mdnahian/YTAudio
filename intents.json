@@ -1,20 +1,37 @@
 {
-
-    "intents": [{
-
-        "intent": "SearchIntent",
-        "slots": [{
-            "name": "term",
-            "type": "string"
-
-        }]}, {
-
-        "intent": "SelectionIntent",
-        "slots": [{
-            "name": "selection",
-            "type": "string"
-        }]
-
-        }]
-
+  "intents": [
+    {
+      "intent": "AMAZON.ResumeIntent"
+    },
+    {
+      "intent": "AMAZON.PauseIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "term",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "SearchIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "selection",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "SelectionIntent"
+    },
+    {
+      "intent": "PlayIntent"
+    }
+  ]
 }
