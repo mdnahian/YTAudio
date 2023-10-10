@@ -1,3 +1,4 @@
+
 # YTAudio
 
 YouTube Audio Player Alexa Skill
@@ -8,7 +9,7 @@ YouTube Audio Player Alexa Skill
 2. `pip install youtube-dl --upgrade`
 3. `python app.py`
 
-## Skill Setup
+## Skill Setup.
 
 ### Skill Information
 
